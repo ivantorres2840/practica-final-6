@@ -1,0 +1,6 @@
+Rifle
+Pistola
+pascu
+AK-47
+MP-7
+cuervo

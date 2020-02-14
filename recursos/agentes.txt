@@ -1,0 +1,14 @@
+********************Nombre:juanEdad:45Direccion:asdfSalario:1234.0********************Años de mandato:5
+********************Nombre:juanEdad:22Direccion:asdfSalario:512.0********************Años de mandato:3
+********************Nombre:pepeEdad:56Direccion:asdfqSalario:23.0********************Años de mandato:4
+********************Nombre:asdEdad:23Direccion:asdfqweSalario:123.0********************Años de mandato:5
+********************Nombre:asdfEdad:12Direccion:qwerSalario:56.0********************Años de mandato:1
+********************Nombre:jesuEdad:23Direccion:asdfgSalario:564.0********************Años de mandato:3
+********************Nombre:asdEdad:56Direccion:asdfqSalario:456.0********************Años de mandato:5
+********************Nombre:asdEdad:12Direccion:asdqfSalario:456.0********************Años de mandato:2
+********************Nombre:juanEdad:45Direccion:asdqwerSalario:456.0********************Años de mandato:3
+********************Nombre:asdfEdad:45Direccion:qwe1Salario:4561.0********************Años de mandato:3
+********************Nombre:asdEdad:23Direccion:asdfqSalario:4568.0********************Años de mandato:1
+********************Nombre:asdfEdad:45Direccion:asdfqSalario:56.0********************Años de mandato:3
+********************Nombre:asdEdad:56Direccion:sadqweSalario:123.0********************Años de mandato:5
+********************Nombre:asdEdad:3Direccion:21321asdSalario:4.0********************Años de mandato:1
