@@ -314,11 +314,9 @@ public class IoDatos {
 			escribir = new DataOutputStream(fo);
 			while(leer.hasNextLine()) {
 				for (int i = 0; i < vArmas.length; i++) {
-					if(vArmas[i]!=null) {
 						vArmas[i]=leer.nextLine();
 						escribir.writeUTF(vArmas[i]);
 					}
-				}
 			}
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
