@@ -1,5 +1,14 @@
 import java.io.Serializable;
 
+/**
+ *
+ * @author Ivan Torres
+ * @version 1.0.0
+ * 
+ */
+
+
+
 public abstract class Agente implements Serializable {
 	private String nombre;
 	private int edad;
