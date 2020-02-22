@@ -1,4 +1,10 @@
 import java.util.Arrays;
+/**
+ * Esta clase es una herencia de la calse agente
+ * 
+ * @author Ivan Torres
+ * @version 1.0.0
+*/
 
 public class Agente007 extends Agente {
 	
