@@ -10,7 +10,21 @@ import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
+/**
+ *
+ * @author Ivan Torres
+ * @version 1.0.0
+ * 
+ */
+
 public class IoDatos {
+	
+	
+	/**
+	 * Metodo donde leemos las armas que hemos guardado en un fichero
+	 * 
+	 * @param String [] leerArma
+	*/
 	
 	public static String [] leerArma() {
 		File fichero = new File("./recursos/armas.txt");
@@ -44,6 +58,13 @@ public class IoDatos {
 			
 	}
 	
+	/**
+	 * Metodo donde leemos los pisos que hemos guardado en un fichero
+	 * 
+	 * @param String [] leerPisos
+	*/
+	
+	
 	public static String [] leerPisos() {
 		File fichero = new File("./recursos/pisos.txt");
 		Scanner leer;
@@ -76,6 +97,12 @@ public class IoDatos {
 			
 	}
 	
+	/**
+	 * Metodo donde guardamos las armas pedidas por teclado en un fichero
+	 * 
+	 * 
+	*/
+	
 	public static void guardararma() {
 		File fichero = new File("./recursos/armas.txt");
 		Scanner leer;
@@ -104,6 +131,11 @@ public class IoDatos {
 		}
 		}
 	
+	/**
+	 * Metodo donde guardamos los pisos pedidas por teclado en un fichero
+	 * 
+	 * 
+	*/
 	
 	public static void guardarPiso() {
 		File fichero = new File("./recursos/pisos.txt");
@@ -134,6 +166,12 @@ public class IoDatos {
 			e.printStackTrace();
 		}
 	}
+	
+	/**
+	 * Metodo donde guardamos los agentes que recibimos del vector de agentes en un fichero
+	 * 
+	 * 
+	*/
 	
 	
 	public static void guardarAgente(Agente [] vAgente) {
@@ -185,6 +223,12 @@ public class IoDatos {
 		return vAgentes;
 			
 	}
+	/**
+	 * Metodo donde pasamos los afentes de un fichero de texto a un fichero binario y este fichero de texto queda eliminado
+	 * 
+	 * 
+	*/
+	
 	
 	public static void encriptarAgente(Agente[] vAgente) {
 		File fichero = new File("./recursos/agentes.dat");
@@ -227,6 +271,12 @@ public class IoDatos {
 		
 		
 	}
+	/**
+	 * Metodo donde pasamos los pisos de un fichero de texto a un fichero binario y este fichero de texto queda eliminado
+	 * 
+	 * 
+	*/
+	
 	
 	public static void encriptarPisos() {
 		File fichero = new File("./recursos/pisos.txt");
@@ -281,6 +331,13 @@ public class IoDatos {
 		
 		
 	}
+	
+	/**
+	 * Metodo donde pasamos las armas de un fichero de texto a un fichero binario y este fichero de texto queda eliminado
+	 * 
+	 * 
+	*/
+	
 	
 	public static void encriptarArmas() {
 		File fichero = new File("./recursos/armas.txt");
