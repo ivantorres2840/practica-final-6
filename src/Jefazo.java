@@ -1,24 +1,29 @@
-
+/**
+ * Esta clase es una herencia de la calse agente
+ * 
+ * @author Ivan Torres
+ * @version 1.0.0
+*/
 public class Jefazo extends Agente {
-	private int Años;
+	private int AÃ±os;
 
-	public Jefazo(String nombre, int edad, String direccion, double salario, int años) {
+	public Jefazo(String nombre, int edad, String direccion, double salario, int aÃ±os) {
 		super(nombre, edad, direccion, salario);
-		Años = años;
+		AÃ±os = aÃ±os;
 	}
 
-	public int getAños() {
-		return Años;
+	public int getAÃ±os() {
+		return AÃ±os;
 	}
 
-	public void setAños(int años) {
-		Años = años;
+	public void setAÃ±os(int aÃ±os) {
+		AÃ±os = aÃ±os;
 	}
 
 	@Override
 	public String toString() {
 		return super.toString()+
-				 "Años de mandato:"+this.Años;
+				 "AÃ±os de mandato:"+this.AÃ±os;
 	}
 
 	
